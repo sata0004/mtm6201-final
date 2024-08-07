@@ -1,0 +1,57 @@
+.navbar-custom {
+  background-color: #ffc737;
+}
+
+.footer-custom {
+  background-color: #d39a08;
+}
+
+.dropdown-menu-dark {
+  background-color: #343a40;
+  color: white;
+}
+.dropdown-menu-dark .dropdown-item {
+  color: white;
+}
+.dropdown-menu-dark .dropdown-item:hover {
+  background-color: #495057;
+}
+
+.navbar-logo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.card-custom {
+  background-color: #000;
+  color: white;
+}
+.form-custom {
+  background-color: #d39a08;
+  color: white;
+}
+
+.form-control::placeholder {
+  color: #ffffff;
+  opacity: 1;
+}
+
+.form-control:focus {
+  background-color: #d39a08;
+  color: #000000;
+  border-color: #000000;
+}
+button:hover {
+  background-color: #ae934f;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+footer a {
+  text-decoration: none;
+}
